@@ -1,0 +1,63 @@
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: rgb(6, 1, 54);
+}
+
+a:visited{
+    color: rgb(118, 108, 192);
+}
+
+a:hover{
+    color:  rgb(34, 4, 199);
+}
+
+a:focus{
+    outline: 2px solid red;
+}
+
+a:active{
+     color:  rgb(179, 178, 190);
+}
+
+body{
+    background-color: ghostwhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    width: 430px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    padding: auto;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+.todo-list{
+    width: 400px;
+    list-style: none;
+    padding-inline-start: 0px;
+    margin: auto;
+}
+
+.todo-list > li{
+    
+    list-style-position: outside;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    height: 60px;
+    padding: 20px;
+    background-color: seashell;
+}
+
+.sub-item{
+    margin-top: 15px;
+}
