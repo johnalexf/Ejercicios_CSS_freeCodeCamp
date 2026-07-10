@@ -1,0 +1,32 @@
+body{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width: 70vw;
+    min-height: calc(100vh - 100px );
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+hr, section{
+    width: 100%;
+}
+
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+figure{
+    display: flex;
+}
+
+img{
+    margin: auto;
+}
