@@ -1,0 +1,41 @@
+body{
+    background-color: #f4f4f4
+}
+
+header{
+    text-align: center;
+}
+
+.color-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+}
+
+.color-box{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.color1{
+    background-color: #303030;
+}
+
+.color2{
+    background-color: rgb(140, 140, 140);
+}
+
+.color3{
+    background-color: darkgoldenrod;
+}
+
+.color4{
+    background-color: hsl(255, 100%, 50%);
+}
+
+.color5{
+    background-color: salmon;
+}
